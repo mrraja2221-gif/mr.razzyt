@@ -1,0 +1,79 @@
+.about-section {
+    padding: 100px 10%;
+    background: #0E3386; /* डार्क थीम */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap; /* मोबाइल के लिए */
+}
+
+.about-image img {
+    width: 250;
+    height: auto;
+    border-radius: 40px;
+    object-fit: cover;
+    border: 3px solid #ff0000; /* रेड बॉर्डर आपके ब्रांड के लिए */
+    box-shadow: 0 20px 30px rgba(255, 0, 0, 0.2);
+}
+
+.about-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.personal-info {
+    margin: 20px 0;
+}
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* सोशल मीडिया कलर्स */
+.insta { background: #E1306C; }
+.fb { background: #1877F2; }
+.tiktok { background: #010101; border: 1px solid white; }
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.contact-btn:hover {
+    background: #cc0000;
+}
